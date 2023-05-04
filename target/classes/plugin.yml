@@ -1,0 +1,32 @@
+name: GiantEvent
+version: '1.0'
+main: me.fortibrine.giantevent.GiantEvent
+api-version: 1.13
+
+author: IJustFortiLive
+
+commands:
+  addspawn:
+    description: "Додати спавн гіганту"
+  startevent:
+    description: "Запуск івенту"
+  stopevent:
+    description: "Зупинка івенту"
+
+permissions:
+  giantevent.*:
+    description: "Всі права"
+    default: op
+    children:
+      giantevent.addspawn: true
+      giantevent.startevent: true
+      giantevent.stopevent: true
+  giantevent.addspawn:
+    default: op
+    description: "Право на додачу спавну гіганту"
+  giantevent.startevent:
+    default: op
+    description: "Право на запуск івенту"
+  giantevent.stopevent:
+    default: op
+    description: "Право на зупинку івенту"

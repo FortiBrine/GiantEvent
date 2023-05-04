@@ -1,0 +1,8 @@
+spawn: []
+
+messages:
+  nonplayer: "Ти не гравець"
+  nonpermission: "Помилка: Недостатньо прав."
+  location: "Локація встановлена успішно!"
+  startevent: "Увага: Івент почався!"
+  stopevent: "Увага: Івент закінчився!"
